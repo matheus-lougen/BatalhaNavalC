@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void menu_mostrar_menu_principal () {
+int main () {
     system("clear");
     int menu_opcao_escolhida = 0;
     printf("\n                                     # #  ( )\n");
@@ -23,8 +23,4 @@ void menu_mostrar_menu_principal () {
     printf("3. Sair: Fechar a aplicação (CTRL + C).\n");
     printf("\nEscolha uma opção (1, 2, 3): ");
     scanf("%d", &menu_opcao_escolhida);
-}
-
-int main () {
-    menu_mostrar_menu();
 }
